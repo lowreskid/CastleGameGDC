@@ -24,6 +24,7 @@
     <script>scripts\scr_camInitialize.gml</script>
     <script>scripts\scr_collision.gml</script>
     <script>scripts\scr_camera.gml</script>
+    <script>scripts\scr_swordCollision.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_castle_mask</object>
@@ -41,7 +42,7 @@
     <room>rooms\room1</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41922.0792386111</constant>
+    <constant name="GM_build_date">41922.9432125347</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>

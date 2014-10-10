@@ -200,7 +200,7 @@ else
   </events>
   <PhysicsObject>0</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
-  <PhysicsObjectShape>0</PhysicsObjectShape>
+  <PhysicsObjectShape>2</PhysicsObjectShape>
   <PhysicsObjectDensity>0.5</PhysicsObjectDensity>
   <PhysicsObjectRestitution>0.100000001490116</PhysicsObjectRestitution>
   <PhysicsObjectGroup>0</PhysicsObjectGroup>
@@ -210,7 +210,8 @@ else
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>23,26</point>
-    <point>22,22</point>
+    <point>0,0</point>
+    <point>72,0</point>
+    <point>72,144</point>
   </PhysicsShapePoints>
 </object>

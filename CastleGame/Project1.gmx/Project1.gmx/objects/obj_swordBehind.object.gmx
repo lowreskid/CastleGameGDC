@@ -8,6 +8,31 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>targetx = 0;
+targety = 0;
+inst = 0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -60,42 +85,28 @@ if (y + 80 &lt; obj_castle.y + 210)
     depth = 6;
 }
 else
+{
     depth = 2;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_enemy">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if(distance_to_object(instance_nearest(x, y, obj_enemy)) &lt; 100)
-inst = instance_nearest(x, y, obj_enemy);
+}
 
-
-if place_meeting(x, y, obj_enemy)
+scr_swordCollision();    
+/*if(distance_to_object(instance_nearest(x, y, obj_enemy)) &lt; 100)
+{
+    if place_meeting(x, y, obj_enemy)
     {
+        inst = instance_nearest(x, y, obj_enemy);
+        targetx = (inst.x + lengthdir_x(100, image_angle));
+        targety = (inst.y + lengthdir_y(100, image_angle));
+    } 
+}
+with (inst)
+{
+    x = x + (other.targetx - x) * 0.2;
+    y = y + (other.targety - y) * 0.2;
+}*/
 
-        targetx = (inst.x + lengthdir_x(600, image_angle));
-        targety = (inst.y + lengthdir_y(600, image_angle));
-
-    }
-inst.x = inst.x + (targetx - inst.x) * 0.2;
-inst.y = inst.y + (targety - inst.y) * 0.2;
+    
+    
 </string>
           </argument>
         </arguments>
