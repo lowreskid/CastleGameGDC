@@ -1,4 +1,4 @@
-//window_set_fullscreen(true); //uncomment 4 fullscreen action
+window_set_fullscreen(true); //uncomment 4 fullscreen action
 
 //xoffset = 0; 
 //yoffset = 0;
