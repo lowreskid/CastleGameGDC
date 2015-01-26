@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>scr_camInitialize(); //initializes camera
 instance_create(obj_player.x, obj_player.y, obj_sword);
+instance_create(obj_player.x, obj_player.y, obj_dualWield);  // comment this out if you want one sword
 
 image_speed = 0.25;
 friction = 0.35;
