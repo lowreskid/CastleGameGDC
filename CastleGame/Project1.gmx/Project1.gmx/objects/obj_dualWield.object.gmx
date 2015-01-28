@@ -28,6 +28,8 @@
             <string>targetx = 0;
 targety = 0;
 inst = 0;
+friction = 0;
+speed = 0;
 </string>
           </argument>
         </arguments>
@@ -73,7 +75,7 @@ else
 {
     depth = 1;
 }
-scr_swordCollision(); 
+//scr_swordCollision(); 
 
 
     

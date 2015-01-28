@@ -73,7 +73,7 @@ else
 {
     depth = 1;
 }
-scr_swordCollision(); 
+//scr_swordCollision(); 
 
 
     
