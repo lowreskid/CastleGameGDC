@@ -27,6 +27,8 @@
     <script>scripts\scr_collision.gml</script>
     <script>scripts\scr_camera.gml</script>
     <script>scripts\scr_swordCollision.gml</script>
+    <script>scripts\scr_swordEnemyCollision.gml</script>
+    <script>scripts\scr_playerDamage.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_castle_mask</object>

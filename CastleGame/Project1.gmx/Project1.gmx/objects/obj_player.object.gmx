@@ -27,10 +27,35 @@
             <kind>1</kind>
             <string>scr_camInitialize(); //initializes camera
 instance_create(obj_player.x, obj_player.y, obj_sword);
+canBeHit = true;
 //instance_create(obj_player.x, obj_player.y, obj_dualWield);  // comment this out if you want one sword
-
+hp = 100;
+maxhp = 100;
 image_speed = 0.25;
 friction = 0.35;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>canBeHit = true;
 </string>
           </argument>
         </arguments>
@@ -53,12 +78,21 @@ friction = 0.35;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//player points towards mouse
+            <string>
+
+
+//player points towards mouse
 pdir = point_direction(x,y,mouse_x,mouse_y)
 if pdir &gt;= 90 &amp;&amp; pdir &lt;= 270
+{
     image_xscale= 1
+    //show_debug_message("image_xscale = 1");
+}
 else
+{
     image_xscale= -1
+    //show_debug_message("image_xscale = -1");
+}
 
 scr_camera();
 
@@ -124,6 +158,32 @@ if (y + 72 &lt; obj_castle.y + 210)
 else
     depth = 1;
     
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_enemy">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(canBeHit == true)
+{
+    scr_playerDamage();
+}
 </string>
           </argument>
         </arguments>
@@ -196,6 +256,44 @@ else
         x = xprevious
     }
 }*/
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//destroy if necessary
+if(hp &gt; 0)
+{
+    draw_sprite(sprite_index, image_index, x, y);
+
+    if pdir &gt;= 90 &amp;&amp; pdir &lt;= 270
+    {
+        draw_healthbar(x - (sprite_width/2), y + (sprite_height/2) + 5, x + (sprite_width/2), y + (sprite_height/2) + 10, (hp/maxhp) * 100, c_black, c_red, c_green, 0, false,true);
+    }
+    else
+    {
+        draw_healthbar(x - (sprite_width/2), y + (sprite_height/2) + 5, x + (sprite_width/2), y + (sprite_height/2) + 10, (hp/maxhp) * 100, c_black, c_red, c_green, 1, false,true);
+    }
+
+    //draw_text(x - (sprite_width/2)- 5, y + (sprite_height/2) + 3, string(hp/maxhp * 100) + "HP");
+}
 </string>
           </argument>
         </arguments>
