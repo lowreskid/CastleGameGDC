@@ -17,6 +17,8 @@
     <sprite>sprites\spr_caslte_mask</sprite>
     <sprite>sprites\spr_sword</sprite>
     <sprite>sprites\spr_flag</sprite>
+    <sprite>sprites\spr_bigEnemy</sprite>
+    <sprite>sprites\spr_swagEnemy</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -29,6 +31,8 @@
     <script>scripts\scr_swordCollision.gml</script>
     <script>scripts\scr_swordEnemyCollision.gml</script>
     <script>scripts\scr_playerDamage.gml</script>
+    <script>scripts\scr_swordBehindEnemyCollision.gml</script>
+    <script>scripts\scr_playerEnemyCollision.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_castle_mask</object>
@@ -43,6 +47,9 @@
     <object>objects\obj_ground</object>
     <object>objects\obj_flag</object>
     <object>objects\obj_enemy</object>
+    <object>objects\obj_swagEnemy</object>
+    <object>objects\obj_bigEnemy</object>
+    <object>objects\obj_enemySpawner</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
