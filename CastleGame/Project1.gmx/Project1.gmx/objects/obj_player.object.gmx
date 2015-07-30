@@ -162,7 +162,7 @@ else
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_swagEnemy">
+    <event eventtype="4" ename="obj_bigEnemy">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -188,7 +188,7 @@ else
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_bigEnemy">
+    <event eventtype="4" ename="obj_swagEnemy">
       <action>
         <libid>1</libid>
         <id>603</id>

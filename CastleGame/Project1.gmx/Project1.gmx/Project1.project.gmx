@@ -19,6 +19,7 @@
     <sprite>sprites\spr_flag</sprite>
     <sprite>sprites\spr_bigEnemy</sprite>
     <sprite>sprites\spr_swagEnemy</sprite>
+    <sprite>sprites\spr_castleRepairItem</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -50,6 +51,9 @@
     <object>objects\obj_swagEnemy</object>
     <object>objects\obj_bigEnemy</object>
     <object>objects\obj_enemySpawner</object>
+    <object>objects\obj_store</object>
+    <object>objects\obj_repairCastleItem</object>
+    <object>objects\obj_item</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
