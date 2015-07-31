@@ -1,3 +1,134 @@
-Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-4128
+Base path: E:/Program Files (x86)/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-8196
 Cmd: getPlatforms
+Cmd: preprocess
+  insize=2273 outsize=2270 ok=1
+Cmd: preprocess
+  insize=1196 outsize=1141 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6857 outsize=3281 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6857 outsize=1241 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3987 outsize=2753 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3987 outsize=1623 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3393 outsize=2103 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3393 outsize=1266 kw= ok=1
+Cmd: preprocess
+  insize=1463 outsize=1195 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7056 outsize=3281 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7056 outsize=1574 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4174 outsize=2753 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4174 outsize=2257 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3592 outsize=2103 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3592 outsize=1266 kw= ok=1
+Cmd: preprocess
+  insize=1237 outsize=1139 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6901 outsize=3281 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6901 outsize=1412 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4031 outsize=2753 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4031 outsize=2038 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3437 outsize=2103 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3437 outsize=1266 kw= ok=1
+Cmd: preprocess
+  insize=483 outsize=483 ok=1
+Cmd: preprocess
+  insize=1816 outsize=1358 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7656 outsize=3663 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7656 outsize=2411 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4496 outsize=2753 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4496 outsize=3021 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4302 outsize=3435 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4302 outsize=2176 kw= ok=1
+Cmd: preprocess
+  insize=1766 outsize=1314 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7674 outsize=3663 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7674 outsize=2322 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4360 outsize=2753 kw=POINT ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (68): floating point division by zero\nCompiling Fragment program with POINT
+  api=4 type=1 insize=4360 outsize=2257 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4297 outsize=3435 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4297 outsize=2948 kw= ok=1
+Cmd: preprocess
+  insize=1685 outsize=1272 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7612 outsize=3663 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7612 outsize=2549 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4452 outsize=2753 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4452 outsize=3159 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4258 outsize=3435 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4258 outsize=2314 kw= ok=1
+Cmd: preprocess
+  insize=462 outsize=462 ok=1
+Cmd: preprocess
+  insize=1753 outsize=1335 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7548 outsize=3663 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7548 outsize=2419 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4390 outsize=2753 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4390 outsize=2948 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3791 outsize=2103 kw= ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (64): floating point division by zero\nCompiling Fragment program
+  api=4 type=1 insize=3791 outsize=1266 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4452 outsize=2753 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4452 outsize=2403 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4360 outsize=2753 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (68): floating point division by zero\nCompiling Fragment program with DIRECTIONAL
+  api=4 type=1 insize=4360 outsize=1477 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4174 outsize=2753 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4174 outsize=1477 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4496 outsize=2753 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4496 outsize=2265 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4390 outsize=2753 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4390 outsize=2192 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7056 outsize=3671 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7056 outsize=1891 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
